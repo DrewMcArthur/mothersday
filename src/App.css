@@ -1,3 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+
+.cardcard  {
+  background-image: url("/flowerbg.jpg");
+}
+
+.cardContainer {
+  max-width: 1000px;
+  margin: 50px auto;
+  border: 5px solid darkgray;
+}
+
+.left, .right {
+  width: 50%;
+  position: relative;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.blank {
+  height: 100%; 
+}
+
+.front h1 {
+  text-align: center;
+  font-size: 55px;
+}
+
+.front .bmji {
+  height: 260px;
+  position: absolute;
+}
+.front .bmji.n1 {
+  top: 130px;
+  left: 10px;
+}
+.front .bmji.n2 {
+  top: 320px;
+  left: 230px;
+}
+.front .tulip {
+  height: 150px;
+  position: absolute;
+  top: 475px;
+  z-index: 2;
+}
+.front .tulip.n2 {
+  top: 465px;
+  left: 60px;
+}
+.front .tulip.n3 {
+  left: 120px;
+}
+.front .tulip.n4,
+.front .tulip.n5 {
+  top: 395px;
+  z-index: 1;
+}
+.front .tulip.n4 {
+  left: 30px;
+  transform: rotate(-10deg);
+}
+.front .tulip.n5 {
+  left: 95px;
+  transform: rotate(15deg);
+}
+.front .tulips {
+  position: absolute;
+  top: 250px;
+}
+
+
+.middle {
+  margin-top: 100px;
+}
+.middle .left p {
+  transform: rotate(-20deg);
+  font-size: 18px;
+}
+article.middle > div.left > p:nth-child(3) {
+  transform: none;
+  margin-top: 100px;
+  margin-left: 15px;
+}
+.middle img {
+  position: absolute;
+}
+.middle .abby.bmji.n4 {
+  height: 150px;
+  top: -90px;
+  left: 25px;
+}
+.middle .bmji.n3 {
+  height: 250px;
+  top: 250px;
+}
+.middle .bmji.abby.n3 {
+  left: 210px;
+}
+
+.middle .right p {
+  transform: rotate(15deg);
+  font-size: 18px;
+}
+
+.middle .right .bmji {
+  position: absolute;
+  height: 150px;
+}
+.middle .right .bmji.n2 {
+  top: -90px;
+  left: 200px;
+  transform: rotate(-10deg)
+}
+.middle .right .abby.bmji.n2 {
+  left: 325px;
+  transform: rotate(15deg)
+}
+.middle .right .drew.bmji.n1 {
+  left: 260px;
+  transform: rotate(20deg);
+  top: 80px;
+  height: 200px;
+}
+.fromText {
+  position: absolute;
+  left: 220px;
+  top: 300px;
+  width: 300px;
+}
+.middle .right .fromText p {
+  font-size: 30px;
+}
+
+
+.back .back-text {
+  margin: auto;
+  margin-top: 500px;
+  text-align: center;
+}
+
+.cardHider {
+  position: fixed;
+  background-color: #333;
+  height: 700px;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+h1,p {
+  font-family: "Chewy", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +190,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  background-color: #333;
 }
