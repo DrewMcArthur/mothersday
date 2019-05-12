@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mothersday/static/css/main.ee360868.chunk.css",
-    "main.js": "/mothersday/static/js/main.60000dc6.chunk.js",
-    "main.js.map": "/mothersday/static/js/main.60000dc6.chunk.js.map",
+    "main.js": "/mothersday/static/js/main.6ac2a350.chunk.js",
+    "main.js.map": "/mothersday/static/js/main.6ac2a350.chunk.js.map",
     "runtime~main.js": "/mothersday/static/js/runtime~main.ba18cc7c.js",
     "runtime~main.js.map": "/mothersday/static/js/runtime~main.ba18cc7c.js.map",
     "static/js/2.0bf221b8.chunk.js": "/mothersday/static/js/2.0bf221b8.chunk.js",
     "static/js/2.0bf221b8.chunk.js.map": "/mothersday/static/js/2.0bf221b8.chunk.js.map",
     "index.html": "/mothersday/index.html",
-    "precache-manifest.d274e5595ddb534110772821e196fdb2.js": "/mothersday/precache-manifest.d274e5595ddb534110772821e196fdb2.js",
+    "precache-manifest.e3ab4a24fb35f67554d882680a76e60e.js": "/mothersday/precache-manifest.e3ab4a24fb35f67554d882680a76e60e.js",
     "service-worker.js": "/mothersday/service-worker.js",
     "static/css/main.ee360868.chunk.css.map": "/mothersday/static/css/main.ee360868.chunk.css.map"
   }
